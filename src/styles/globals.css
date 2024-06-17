@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-wrapper{
+    display: flex;
+}
+
+html{
+    scroll-behavior: smooth;
+}
