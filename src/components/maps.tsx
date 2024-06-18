@@ -32,7 +32,7 @@ export default function Map(prop: MapProps) {
       />
       <Marker position={[-8.592738632092548, 116.10511223313067]} icon={pin}>
         <Popup>
-          Anjayyyyyyy Blom Jadi
+          Blom Jadi
         </Popup>
       </Marker>
     </MapContainer>
