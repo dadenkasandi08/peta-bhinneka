@@ -2,8 +2,7 @@ import Button from "@/components/button";
 import Image from "next/image";
 import {Layout} from "@/layout/layout";
 import Background1 from "@/assets/images/background1.png";
-import SliderBanner from "@/components/sliderBanner";
-
+import SliderArtikel from "@/components/sliderArtikel";
 
 export default function Home() {
   return (
@@ -25,15 +24,15 @@ export default function Home() {
             <div className="flex justify-between mt-6">
               <div className="text-yellow-500">
                 <p className="text-3xl font-bold">Artikel</p>
-                <p className="text-2xl">0</p>
+                <p className="text-2xl">18</p>
               </div>
               <div className="text-yellow-500">
                 <p className="text-3xl font-bold">Rangkuman Budaya</p>
-                <p className="text-2xl">0</p>
+                <p className="text-2xl">18</p>
               </div>
               <div className="text-yellow-500">
                 <p className="text-3xl font-bold">Provinsi</p>
-                <p className="text-2xl">0</p>
+                <p className="text-2xl">1</p>
               </div>
             </div>
           </div>
@@ -67,10 +66,6 @@ export default function Home() {
               <Button
                 href="/peta"
                 text="Mulai Explorasi"
-                size="xlarge"
-                type="primary"
-                textCustom="text-4xl lg:text-xl"
-                custom="lg:w-[14rem] py-4 lg:py-2"
               />
             </div>
           </div>
@@ -79,17 +74,13 @@ export default function Home() {
 
 
       <section className="flex flex-col items-center py-20">
-        <div className="container flex flex-col lg:flex-row justify-between  ">
-          <SliderBanner />
+        <div className="container w-1/2 h-3/4 flex flex-col lg:flex-row justify-between  ">
+          <SliderArtikel/>
         </div>
         <div className="flex justify-center mt-10">
           <Button
             href="/artikel"
             text="Lihat Artikel"
-            size="xlarge"
-            type="primary"
-            textCustom="text-4xl lg:text-xl"
-            custom="lg:w-[14rem] py-4 lg:py-2"
           />
         </div>
       </section>

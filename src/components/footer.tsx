@@ -13,19 +13,19 @@ function Footer() {
           <nav className="flex flex-col gap-2">
           <Link
               className="hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="/peta"
             >
               Peta
             </Link>
             <Link
               className="hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="/artikel"
             >
               Artikel
             </Link>
             <Link
               className="hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="/galeri"
             >
               Dokumentasi
             </Link>
@@ -61,7 +61,7 @@ function Footer() {
               className="hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
-              085736572535
+              085858501169
             </Link>
             <Link
               className="hover:text-brightColor transition-all cursor-pointer"
@@ -74,7 +74,7 @@ function Footer() {
       </div>
       <div>
         <p className="text-center py-4">
-          PetaBhinneka © 2024 - dicoding capstone
+          PetaBhinneka © 2024 -
           <span> dicoding capstone</span>
         </p>
       </div>

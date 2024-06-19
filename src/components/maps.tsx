@@ -27,7 +27,6 @@ export default function Map(prop: MapProps) {
       DataPeta.getDataMarker().then((data) => setMarkers(data));
   },[]);
 
-
   return (
     <MapContainer
       markerZoomAnimation
@@ -52,7 +51,7 @@ export default function Map(prop: MapProps) {
               <Image src={marker.imageUrl} alt={marker.name} width={300} height={300} className=" rounded-md "/>
               <p>{marker.description}</p>
               <Link href={`/artikel/detail/${marker.id}`}>
-                Detail Link
+                Detail
               </Link>
             </Popup>
           </Marker>

@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import Banner1 from "@/assets/images/artikel/1.png";
-import Banner2 from "@/assets/images/artikel/2.png";
-import Banner3 from "@/assets/images/artikel/3.png";
-import Banner4 from "@/assets/images/artikel/4.png";
 
 function SliderArtikel() {
   const contents = [
