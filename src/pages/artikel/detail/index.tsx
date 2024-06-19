@@ -1,8 +1,7 @@
-import Layout from "@/layout/layout";
+import {Layout} from "@/layout/layout";
 import React, { useState } from "react";
 import Image from "next/image";
 import BgDetail from "@/assets/images/artikel/3.png";
-import BannerKampanye from "@/components/bannerKampanye";
 import CardArtikelDetail from "@/components/cardArtikelDetail";
 
 function DetailArtikel() {
@@ -34,20 +33,6 @@ function DetailArtikel() {
               Jo Effect pada MPL Season 12. Bagaimanakah Pengaruhnya dalam
               menonton MPL dengan Livestreaming?
             </p>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-20 h-20"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z"
-              />
-            </svg>
           </div>
           <div className="flex flex-col items-start w-full px-24 text-lg">
             <p>Oleh Nanda Pake Z.</p>
@@ -111,17 +96,6 @@ function DetailArtikel() {
               dignissimos, animi neque quod?
             </p>
 
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className="px-24 flex flex-col items-center mb-10 gap-6">
-          <p className="text-3xl font-semibold">Artikel Lainnya</p>
-          <div className="w-full flex gap-6">
-            <CardArtikelDetail />
-            <CardArtikelDetail />
-            <CardArtikelDetail />
-            <CardArtikelDetail />
           </div>
         </div>
       </section>

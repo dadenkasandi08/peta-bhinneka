@@ -1,5 +1,5 @@
 import SliderArtikel from "@/components/sliderArtikel";
-import Layout from "@/layout/layout";
+import {Layout} from "@/layout/layout";
 import React, { useState } from "react";
 import CardArtikel from "@/components/cardArtikel";
 

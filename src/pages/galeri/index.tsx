@@ -1,4 +1,4 @@
-import Layout from "@/layout/layout";
+import {Layout} from "@/layout/layout";
 import React, { useState } from "react";
 import Background3 from "@/assets/images/galeribanner.png";
 import Image from "next/image";

@@ -1,6 +1,6 @@
 import Button from "@/components/button";
 import Image from "next/image";
-import Layout from "@/layout/layout";
+import {Layout} from "@/layout/layout";
 import Background1 from "@/assets/images/background1.png";
 import SliderBanner from "@/components/sliderBanner";
 
@@ -99,8 +99,8 @@ export default function Home() {
         <div className="flex flex-col gap-10 lg:flex-row justify-between my-16 px-10 lg:px-24 text-center">
           <div className="w-full  mx-auto mb150">
             <p className="text-5xl font-bold  text-primary-10 mb-7">
-              "Terhubung dengan Warisan,<br />
-              Terinspirasi oleh Kebudayaan: Indonesia Adalah Kita Semua."
+              Terhubung dengan Warisan,<br />
+              Terinspirasi oleh Kebudayaan: Indonesia Adalah Kita Semua.
             </p>
             <p className="text-2xl font-semibold" style={{ color: '#F6A01E' }}>
               #Jadilah #ExplorerBhinneka

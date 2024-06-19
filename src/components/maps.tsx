@@ -1,12 +1,18 @@
-import React, { ReactNode } from "react";
+import React, { ReactNode, useState, useEffect } from "react";
 import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
+import {DataPeta, CulturalLocation } from "../Model/local-data";
+import Image from "next/image";
+import Link from "next/link";
+
 type MapProps = {
   center: [number, number];
   zoom: number;
   children?: ReactNode;
 };
+
+
 
 export default function Map(prop: MapProps) {
   const pin = L.icon({
@@ -15,26 +21,43 @@ export default function Map(prop: MapProps) {
     iconAnchor: [20, 40],
   });
 
+  const [markers, setMarkers] = useState<CulturalLocation[]>([]);
+
+  useEffect(() => {
+      DataPeta.getDataMarker().then((data) => setMarkers(data));
+  },[]);
+
 
   return (
     <MapContainer
       markerZoomAnimation
       zoomAnimation
-      className="z-0 rounded-lg shadow-xl"
+      className="z-0 shadow-xl"
       center={prop.center}
       zoom={prop.zoom}
-      style={{ height: "70vh", width: "100%" }}
+      style={{ height: "89vh", width: "100%" }}
       scrollWheelZoom={false}
     >
       <TileLayer
         zIndex={1}
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+        maxZoom={19}
       />
-      <Marker position={[-8.592738632092548, 116.10511223313067]} icon={pin}>
-        <Popup>
-          Blom Jadi
-        </Popup>
-      </Marker>
+
+      {
+        markers.map((marker, index) => (
+          <Marker key={index} position={marker.coordinates} icon={pin} title={marker.name}>
+            <Popup>
+              <h2>{marker.name}</h2>
+              <img src={marker.imageUrl} alt={marker.name} style={{ width: "100%", height: "auto" }} />
+              <p>{marker.description}</p>
+              <Link href={`/artikel/detail/${marker.id}`}>
+                Detail Link
+              </Link>
+            </Popup>
+          </Marker>
+        ))
+      }
     </MapContainer>
   );
 }
