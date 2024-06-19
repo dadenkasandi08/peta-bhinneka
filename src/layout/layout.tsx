@@ -23,4 +23,14 @@ function Layout(props: LayoutProps) {
   );
 }
 
-export default Layout;
+function SecondLayout(props: LayoutProps) {
+  return (
+    <div className={poppins.className} id="Home">
+      <Navbar />
+      <main>{props.children}</main>
+    </div>
+  );
+}
+
+export {Layout, SecondLayout} ;
+
