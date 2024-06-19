@@ -49,7 +49,7 @@ export default function Map(prop: MapProps) {
           <Marker key={index} position={marker.coordinates} icon={pin} title={marker.name}>
             <Popup>
               <h2>{marker.name}</h2>
-              <img src={marker.imageUrl} alt={marker.name} style={{ width: "100%", height: "auto" }} />
+              <Image src={marker.imageUrl} alt={marker.name} width={300} height={300} className=" rounded-md "/>
               <p>{marker.description}</p>
               <Link href={`/artikel/detail/${marker.id}`}>
                 Detail Link

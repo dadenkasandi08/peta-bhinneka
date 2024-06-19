@@ -11,314 +11,216 @@ export type CulturalLocation = {
 const culturalLocations: CulturalLocation[] = [
   {
     id: "cult-1",
-    name: "Jaipong",
-    type: "Tari",
+    name: "Angklung",
+    type: "Alat musik",
     description:
-      "Jaipong adalah tarian tradisional khas Jawa Barat yang enerjik dan dinamis.",
-    coordinates: [-6.9259, 107.7189],
+      "Angklung adalah alat musik tradisional Sunda yang terbuat dari bambu. Alat musik ini dimainkan dengan cara digoyangkan sehingga menghasilkan bunyi yang bergetar.",
+    coordinates: [-6.9175, 107.6191],
     imageUrl:
-      "https://media.sukabumiupdate.com/media/2023/02/01/1675229488_63d9f9308b491_rYqDTbucBz28Baot4hmY.jpeg",
-    article: "",
+      "https://www.rukita.co/stories/wp-content/uploads/2022/11/Shutterstock.jpg",
+    article:
+      "Angklung adalah alat musik tradisional yang berasal dari daerah Jawa Barat, Indonesia. Alat musik ini terbuat dari bambu yang disusun sedemikian rupa sehingga menghasilkan bunyi yang indah saat digoyangkan. Setiap bambu memiliki ukuran dan nada yang berbeda, sehingga saat angklung digoyangkan, akan menghasilkan serangkaian melodi yang harmonis. Asal-usul angklung dapat ditelusuri kembali ke zaman kuno di Indonesia, namun sejarahnya yang pasti tidak selalu jelas. Konon, angklung sudah digunakan oleh masyarakat Sunda sejak masa kerajaan, digunakan dalam berbagai upacara adat, pertunjukan seni, dan kegiatan keagamaan. Namun, alat musik ini mulai mendapatkan perhatian yang lebih luas pada abad ke-20 ketika digunakan dalam konteks pendidikan dan hiburan. Angklung tidak hanya dianggap sebagai alat musik, tetapi juga sebagai simbol budaya dan identitas bangsa Indonesia. Pada tahun 2010, UNESCO mengakui angklung sebagai Warisan Budaya Tak Benda dari Indonesia. Pengakuan ini membantu meningkatkan kesadaran akan pentingnya melestarikan dan mempromosikan angklung di tingkat nasional maupun internasional. Dalam pertunjukan angklung, biasanya sekelompok orang akan memegang beberapa angklung yang telah disusun sedemikian rupa, lalu mereka akan menggerakkan angklung tersebut dengan cara digoyangkan. Melalui koordinasi yang baik, mereka dapat menghasilkan lagu-lagu yang indah dan menghibur. Saat ini, angklung tidak hanya dipertunjukkan dalam acara-acara tradisional, tetapi juga dalam konser musik, festival budaya, dan kegiatan seni lainnya di berbagai belahan dunia.",
   },
   {
     id: "cult-2",
-    name: "Keroncong",
-    type: "Musik",
+    name: "Suling Sunda",
+    type: "Alat musik",
     description:
-      "Keroncong adalah genre musik yang berasal dari perpaduan budaya Portugis dan Indonesia.",
-    coordinates: [-6.9835, 107.6186],
-    imageUrl: "",
-    article: "",
+      "Suling adalah alat musik tiup yang terbuat dari bambu. Alat musik ini memiliki lubang-lubang yang menghasilkan nada ketika ditiup.",
+    coordinates: [-6.934, 107.605],
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Suling.jpg",
+    article:
+      "Suling Sunda adalah alat musik tiup tradisional yang berasal dari Sunda, Jawa Barat, Indonesia. Alat musik ini terbuat dari bambu dengan lubang yang disusun sedemikian rupa untuk menghasilkan nada-nada yang indah. Suling Sunda sering digunakan dalam berbagai pertunjukan seni tradisional dan musik rakyat di Jawa Barat. Teknik memainkan suling ini melibatkan cara menutup dan membuka lubang-lubang pada suling dengan jari-jari tangan, sehingga menghasilkan serangkaian melodi yang khas. Suling Sunda biasanya digunakan sebagai instrumen solis atau pengiring dalam berbagai komposisi musik tradisional Sunda, seperti degung, kacapi suling, atau wayang golek. Selain itu, suling ini juga sering digunakan dalam berbagai upacara adat atau ritual keagamaan di masyarakat Sunda. Dengan keindahan suaranya dan kemampuannya untuk menciptakan berbagai nuansa musikal, Suling Sunda menjadi salah satu warisan budaya yang patut dilestarikan dan dipromosikan di Indonesia.",
   },
   {
     id: "cult-3",
-    name: "Angklung",
-    type: "Musik",
+    name: "Kacapi",
+    type: "Alat musik",
     description:
-      "Angklung adalah alat musik tradisional yang terbuat dari bambu dan dimainkan dengan cara digoyangkan.",
-    coordinates: [-6.8965, 107.6547],
-    imageUrl: "",
-    article: "",
+      "Kacapi adalah alat musik petik tradisional Sunda yang dimainkan dengan cara memetik senarnya. Alat musik ini sering digunakan dalam musik tradisional Sunda.",
+    coordinates: [-6.912, 107.608],
+    imageUrl:
+      "https://s3.bukalapak.com/bukalapak-kontenz-production/content_attachments/87913/original/alat_musik_kecapi_5_.jpeg",
+    article:
+      "Kacapi adalah alat musik petik tradisional yang berasal dari Jawa Barat, Indonesia. Alat musik ini terbuat dari kayu dan memiliki bentuk yang mirip dengan kotak persegi panjang. Kacapi memiliki dawai yang disetel dengan berbagai nada, dan dimainkan dengan cara dipetik dengan jari-jari tangan. Alat musik ini sering digunakan dalam berbagai pertunjukan seni tradisional Sunda, seperti wayang golek, tari tradisional, dan acara-acara adat. Suara yang dihasilkan oleh kacapi sangat khas dan indah, menciptakan suasana yang tenang dan memikat bagi pendengarnya. Kacapi juga sering digunakan sebagai pengiring dalam paduan suara atau ensemble musik tradisional Sunda. Meskipun telah ada modernisasi dalam dunia musik, kacapi tetap dihargai dan dilestarikan sebagai bagian penting dari warisan budaya Jawa Barat.",
   },
   {
     id: "cult-4",
-    name: "Wayang Golek",
-    type: "Teater",
+    name: "Calung",
+    type: "Alat musik",
     description:
-      "Wayang Golek adalah pertunjukan boneka tradisional khas Sunda.",
-    coordinates: [-6.9147, 107.6098],
-    imageUrl: "",
-    article: "",
+      "Calung adalah alat musik tradisional Sunda yang mirip dengan angklung, tetapi dimainkan dengan cara dipukul menggunakan alat pemukul khusus.",
+    coordinates: [-6.915, 107.619],
+    imageUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjoyr05kPLa-i9xsq4iNrHwY85STiVmh-tHA&s",
+    article:
+      "Calung adalah salah satu alat musik tradisional Sunda yang memiliki karakteristik unik dalam bunyinya. Mirip dengan angklung, calung terbuat dari bambu, namun dimainkan dengan cara dipukul menggunakan alat pemukul khusus. Alat musik ini sering kali digunakan dalam berbagai pertunjukan seni tradisional di daerah Sunda, menciptakan suasana yang khas dan memikat. Calung sering menjadi bagian penting dalam upacara adat, festival budaya, dan pertunjukan musik rakyat. Dengan ciri khasnya yang khas dan suara yang indah, calung menjadi salah satu warisan budaya yang patut dilestarikan di Indonesia.",
   },
   {
     id: "cult-5",
-    name: "Sisingaan",
-    type: "Tari",
+    name: "Tarawangsa",
+    type: "Alat musik",
     description:
-      "Sisingaan adalah tarian tradisional yang melibatkan tandu berbentuk singa.",
-    coordinates: [-6.7113, 107.6131],
-    imageUrl: "",
-    article: "",
+      "Tarawangsa adalah alat musik gesek tradisional Sunda yang mirip dengan rebab. Alat musik ini digunakan dalam berbagai upacara adat.",
+    coordinates: [-6.917, 107.62],
+    imageUrl:
+      "https://cdn.antaranews.com/cache/730x487/2021/03/13/Alat-Musik-Tarawangsa-Nyaris-Punah-130321-ADB-1_1.jpg",
+    article:
+      "Tarawangsa merupakan salah satu alat musik gesek tradisional yang berasal dari Sunda. Alat musik ini mirip dengan rebab dan sering digunakan dalam berbagai upacara adat di Jawa Barat. Tarawangsa dimainkan dengan cara digesek menggunakan busur, menghasilkan suara yang khas dan merdu. Biasanya, tarawangsa digunakan sebagai pengiring dalam pertunjukan seni tradisional, seperti tari-tarian atau wayang golek. Namun, penggunaan tarawangsa tidak terbatas hanya pada pertunjukan seni, melainkan juga dalam berbagai ritual keagamaan atau perayaan budaya di masyarakat Sunda. Meskipun tidak sepopuler beberapa alat musik tradisional lainnya, tarawangsa tetap menjadi bagian tak terpisahkan dari warisan budaya Sunda dan menjadi simbol kekayaan budaya Indonesia.",
   },
   {
     id: "cult-6",
-    name: "Debus",
-    type: "Pertunjukan",
+    name: "Celempung",
+    type: "Alat musik",
     description:
-      "Debus adalah pertunjukan seni bela diri tradisional yang menampilkan kekebalan tubuh terhadap senjata tajam.",
-    coordinates: [-6.2826, 106.8573],
-    imageUrl: "",
-    article: "",
+      "Celempung adalah alat musik petik tradisional Sunda yang terbuat dari bambu dan dimainkan dengan cara dipetik.",
+    coordinates: [-6.92, 107.623],
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a9/Celempung_Tunggal.jpg",
+    article:
+      "Celempung adalah salah satu alat musik petik tradisional yang berasal dari Jawa Barat, Indonesia. Alat musik ini biasanya terbuat dari bahan kayu atau bambu dengan dawai yang disetel dengan berbagai nada. Cara memainkan celempung adalah dengan cara dipetik menggunakan jari-jari tangan atau alat petik khusus. Suara yang dihasilkan oleh celempung sangat khas dan indah, menciptakan suasana yang tenang dan memikat bagi pendengarnya. Celempung sering digunakan dalam berbagai pertunjukan seni tradisional di Jawa Barat, seperti wayang golek, tari tradisional, dan acara-acara adat. Dengan karakteristiknya yang unik dan suara yang merdu, celempung menjadi salah satu warisan budaya yang patut dilestarikan di Indonesia.",
   },
   {
     id: "cult-7",
-    name: "Tari Topeng",
-    type: "Tari",
+    name: "Gong",
+    type: "Alat musik",
     description:
-      "Tari Topeng adalah tarian tradisional dengan menggunakan topeng yang menggambarkan berbagai karakter.",
-    coordinates: [-6.5847, 106.806],
-    imageUrl: "",
-    article: "",
+      "Gong adalah alat musik perkusi tradisional yang terbuat dari logam dan dimainkan dengan cara dipukul. Gong biasanya digunakan dalam musik gamelan.",
+    coordinates: [-6.928, 107.635],
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Traditional_indonesian_instruments04.jpg/800px-Traditional_indonesian_instruments04.jpg",
+    article:
+      "Gong adalah salah satu alat musik perkusi tradisional yang sangat populer di Asia Tenggara, termasuk Indonesia. Gong terbuat dari logam dan memiliki bentuk cembung dengan hiasan yang indah. Cara memainkan gong adalah dengan cara dipukul menggunakan pemukul khusus, menghasilkan suara bergetar yang dalam dan merdu. Gong memiliki peran yang sangat penting dalam berbagai upacara adat, pertunjukan seni tradisional, dan musik rakyat di Indonesia. Suara gong sering digunakan untuk memulai atau mengakhiri acara, serta sebagai pengiring dalam musik gamelan dan berbagai ensambel musik tradisional. Dengan karakteristiknya yang khas dan perannya yang penting dalam kehidupan masyarakat Indonesia, gong menjadi salah satu simbol kekayaan budaya dan warisan tradisional yang patut dijaga dan dilestarikan.",
   },
   {
     id: "cult-8",
-    name: "Kuda Lumping",
-    type: "Tari",
+    name: "Jaipongan",
+    type: "Tarian tradisional",
     description:
-      "Kuda Lumping adalah tarian yang menampilkan para penari menaiki kuda tiruan dari anyaman bambu.",
-    coordinates: [-6.978, 107.6388],
-    imageUrl: "",
-    article: "",
+      "Jaipongan adalah tarian tradisional Sunda yang energik dan dinamis, yang dikembangkan oleh Gugum Gumbira pada tahun 1974. Tarian ini menggabungkan gerakan pencak silat dan tari rakyat.",
+    coordinates: [-6.9175, 107.6191],
+    imageUrl:
+      "https://asset.kompas.com/crops/VpXXfXOFR6F9T70pJ08HZZUjPOk=/0x0:0x0/750x500/data/photo/buku/63072e6009aaa.jpg",
+    article:
+      "Jaipongan adalah salah satu tarian tradisional yang paling populer di Jawa Barat, Indonesia. Tarian ini diciptakan oleh seniman terkenal, Gugum Gumbira, pada tahun 1976. Jaipongan menggabungkan elemen-elemen tari tradisional Sunda dengan musik modern, menciptakan gaya yang unik dan enerjik. Gerakan dalam jaipongan cenderung lincah dan sensual, sering kali menggambarkan keseimbangan antara kekuatan dan kelembutan. Musik dalam jaipongan biasanya menggunakan alat musik tradisional Sunda, seperti kendang, suling, dan angklung, yang dikombinasikan dengan instrumen modern seperti gitar listrik dan keyboard. Jaipongan sering dipentaskan dalam berbagai acara budaya, festival, dan perayaan di Jawa Barat, serta menjadi bagian dari upaya untuk melestarikan dan mempromosikan budaya Sunda. Dengan gaya yang enerjik dan dinamis, jaipongan terus menjadi daya tarik yang besar bagi penonton di seluruh Indonesia.",
   },
   {
     id: "cult-9",
-    name: "Gamelan",
-    type: "Musik",
+    name: "Topeng Cirebon",
+    type: "Tarian tradisional",
     description:
-      "Gamelan adalah ansambel musik tradisional Jawa dan Sunda yang terdiri dari berbagai jenis alat musik perkusi.",
-    coordinates: [-6.9194, 107.6006],
-    imageUrl: "",
-    article: "",
+      "Topeng Cirebon adalah tarian tradisional dari Cirebon yang menggunakan topeng sebagai bagian dari kostum penarinya. Tarian ini menggambarkan cerita-cerita rakyat dan legenda setempat.",
+    coordinates: [-6.7063, 108.557],
+    imageUrl:
+      "https://static.cdntap.com/tap-assets-prod/wp-content/uploads/sites/24/2021/06/tari-topeng-2-tribun.jpg?width=450&quality=90",
+    article:
+      "Topeng Cirebon adalah salah satu tarian tradisional yang berasal dari Kabupaten Cirebon, Jawa Barat, Indonesia. Tarian ini ditampilkan dengan menggunakan topeng khas yang melambangkan berbagai tokoh atau karakter, seperti dewa, raja, atau binatang. Topeng Cirebon sering kali dipentaskan dalam berbagai upacara adat, pertunjukan seni, dan festival budaya di Jawa Barat. Setiap topeng memiliki karakteristik yang unik, baik dari segi desain maupun makna simbolisnya. Penari topeng Cirebon sering kali menggunakan gerakan yang lincah dan ekspresif, menciptakan suasana yang dramatis dan menghibur. Musik pengiring dalam pertunjukan topeng Cirebon biasanya menggunakan alat musik tradisional Sunda, seperti kendang, suling, dan gamelan. Dengan keindahan kostum dan gerakan yang dramatis, topeng Cirebon terus menjadi bagian penting dari warisan budaya dan seni pertunjukan di Jawa Barat, serta menjadi salah satu daya tarik wisata budaya di Indonesia.",
   },
   {
     id: "cult-10",
-    name: "Wayang Kulit",
-    type: "Teater",
+    name: "Merak",
+    type: "Tarian tradisional",
     description:
-      "Wayang Kulit adalah pertunjukan bayangan tradisional menggunakan boneka kulit.",
-    coordinates: [-7.0015, 107.6186],
-    imageUrl: "",
-    article: "",
+      "Tari Merak adalah tarian yang menggambarkan keindahan burung merak. Penari mengenakan kostum berwarna-warni yang menyerupai bulu merak, dan gerakannya meniru tarian burung tersebut.",
+    coordinates: [-6.9147, 107.6098],
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/DSC_0624_yuri.jpg/1200px-DSC_0624_yuri.jpg",
+    article:
+      "Tari Merak adalah salah satu tarian tradisional yang berasal dari Provinsi Jawa Barat, Indonesia. Tarian ini terinspirasi oleh gerakan burung merak yang anggun dan indah. Gerakan dalam Tari Merak menirukan gerakan burung merak, dengan gerakan yang anggun dan elegan. Kostum penari Tari Merak sering kali dihias dengan motif-motif yang menyerupai bulu burung merak, menciptakan kesan yang cantik dan memukau. Tari Merak sering dipentaskan dalam berbagai upacara adat, pertunjukan seni, dan festival budaya sebagai bagian dari warisan budaya Indonesia. Musik pengiring dalam Tari Merak biasanya menggunakan alat musik tradisional Sunda, seperti gamelan, suling, dan kendang. Dengan keindahan gerakan dan kostum, Tari Merak terus menjadi bagian penting dari seni pertunjukan dan budaya Jawa Barat, serta menjadi salah satu daya tarik wisata budaya di Indonesia.",
   },
   {
     id: "cult-11",
-    name: "Tari Merak",
-    type: "Tari",
+    name: "Ketuk Tilu",
+    type: "Tarian tradisional",
     description:
-      "Tari Merak adalah tarian tradisional yang menggambarkan keindahan burung merak.",
-    coordinates: [-6.9147, 107.6098],
-    imageUrl: "",
-    article: "",
+      "Ketuk Tilu adalah tarian tradisional Sunda yang biasanya dilakukan dalam acara-acara perayaan dan upacara adat. Tarian ini diiringi oleh alat musik tradisional seperti kendang, rebab, dan gong.",
+    coordinates: [-6.912, 107.608],
+    imageUrl:
+      "https://sultantv.co/wp-content/uploads/2023/06/tari-ketuk-tilu-3.jpg",
+    article:
+      "Ketuk Tilu adalah salah satu tarian tradisional yang berasal dari daerah Sunda, Jawa Barat, Indonesia. Tarian ini menggabungkan gerakan tari yang enerjik dengan musik yang menggembirakan. Ketuk Tilu sering dipentaskan dalam berbagai acara adat, festival budaya, dan pertunjukan seni di Jawa Barat. Gerakan dalam Ketuk Tilu cenderung lincah dan ekspresif, sering kali menggambarkan kehidupan sehari-hari atau kegiatan pertanian masyarakat Sunda. Musik pengiring dalam Ketuk Tilu biasanya menggunakan alat musik tradisional Sunda, seperti kendang, suling, dan gamelan. Tarian ini sering menjadi bagian yang tak terpisahkan dari acara-acara rakyat di Jawa Barat, menciptakan suasana yang meriah dan menghibur. Dengan keceriaan gerakan dan musiknya, Ketuk Tilu terus menjadi salah satu warisan budaya yang patut dilestarikan dan dipromosikan di Indonesia.",
   },
   {
     id: "cult-12",
-    name: "Tari Ketuk Tilu",
-    type: "Tari",
+    name: "Sampiung",
+    type: "Tarian tradisional",
     description:
-      "Tari Ketuk Tilu adalah tarian tradisional yang diiringi oleh musik gamelan.",
-    coordinates: [-6.9086, 107.6104],
-    imageUrl: "",
-    article: "",
+      "Tari Sampiung adalah tarian tradisional yang berasal dari daerah Sunda, Jawa Barat. Tarian ini menggambarkan kegiatan sehari-hari masyarakat Sunda.",
+    coordinates: [-6.9175, 107.6191],
+    imageUrl:
+      "https://kudjang.wordpress.com/wp-content/uploads/2018/02/tari-sampiung-300x195.jpg?w=640",
+    article:
+      "Sampiung adalah salah satu tarian tradisional yang berasal dari Jawa Barat, Indonesia. Tarian ini menggambarkan kegiatan masyarakat pedesaan dalam mengolah padi. Gerakan dalam tarian Sampiung cenderung menggambarkan proses pertanian, seperti menanam, menyiangi, dan menuai padi. Musik pengiring dalam tarian ini biasanya menggunakan alat musik tradisional Sunda, seperti kendang, suling, dan gamelan. Tarian Sampiung sering dipentaskan dalam berbagai acara adat, festival budaya, dan pertunjukan seni di Jawa Barat, sebagai bentuk apresiasi terhadap kehidupan petani dan kekayaan alam Indonesia. Dengan makna dan nilai budaya yang terkandung dalam setiap gerakannya, Sampiung menjadi salah satu bagian penting dari warisan budaya Jawa Barat yang patut dilestarikan dan dipromosikan.",
   },
   {
     id: "cult-13",
-    name: "Tari Ronggeng",
-    type: "Tari",
+    name: "Bajidor Kahot",
+    type: "Tarian tradisional",
     description:
-      "Tari Ronggeng adalah tarian tradisional yang biasanya dibawakan oleh penari wanita dengan gerakan yang lemah gemulai.",
-    coordinates: [-6.9321, 107.6344],
-    imageUrl: "",
-    article: "",
+      "Bajidor Kahot adalah tarian kreasi baru yang berasal dari daerah Subang, Jawa Barat. Tarian ini menggabungkan gerakan tari jaipong dengan musik dangdut.",
+    coordinates: [-6.575, 107.7606],
+    imageUrl:
+      "https://pdbifiles.nos.jkt-1.neo.id/files/2014/08/24/baidowi_bajidorkahot.jpg",
+    article:
+      "Bajidor Kahot adalah salah satu tarian tradisional yang berasal dari daerah Sunda, Jawa Barat, Indonesia. Tarian ini biasanya ditampilkan dalam upacara adat, festival budaya, dan perayaan rakyat di Jawa Barat. Bajidor Kahot menggambarkan kegembiraan dan semangat hidup masyarakat Sunda, dengan gerakan yang lincah dan musik yang meriah. Penari Bajidor Kahot sering mengenakan kostum yang cerah dan berwarna-warni, menciptakan suasana yang riang dan menghibur bagi penontonnya. Musik pengiring dalam tarian ini biasanya menggunakan alat musik tradisional Sunda, seperti kendang, suling, dan gamelan. Dengan kegembiraan dan semangatnya, Bajidor Kahot menjadi salah satu bentuk ekspresi seni yang penting dalam kehidupan masyarakat Sunda, serta menjadi bagian tak terpisahkan dari warisan budaya Jawa Barat yang patut dilestarikan dan dipromosikan.",
   },
   {
     id: "cult-14",
-    name: "Pencak Silat",
-    type: "Bela Diri",
+    name: "Wayang Golek",
+    type: "Seni pertunjukan",
     description:
-      "Pencak Silat adalah seni bela diri tradisional yang menggabungkan gerakan pertahanan dan serangan.",
-    coordinates: [-6.9235, 107.6186],
-    imageUrl: "",
-    article: "",
+      "Wayang Golek adalah seni pertunjukan boneka tradisional Sunda yang menggunakan boneka kayu untuk menceritakan berbagai kisah, terutama cerita epik Ramayana dan Mahabharata.",
+    coordinates: [-6.9175, 107.6191],
+    imageUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ09Vi0eLl26pX_COUPDgm85ftM1jXSfhcMfg&s",
+    article:
+      "Wayang Golek adalah seni pertunjukan tradisional yang berasal dari Sunda, Jawa Barat, Indonesia. Pertunjukan ini menggunakan boneka kayu yang disebut 'golek' yang diatur di atas panggung dan dimainkan oleh dalang. Wayang Golek mengisahkan berbagai cerita epik dan mitologis, sering kali berdasarkan pada kitab Ramayana atau Mahabharata. Setiap tokoh dalam pertunjukan Wayang Golek memiliki karakteristik yang unik, baik dari segi penampilan maupun kepribadiannya. Dalang, atau pemain wayang, tidak hanya bertugas memainkan boneka-boneka tersebut, tetapi juga memberi suara dan dialog kepada setiap karakter, serta mengatur alur cerita dan menambahkan humor. Musik pengiring dalam pertunjukan ini menggunakan alat musik tradisional Sunda, seperti kendang, suling, dan gamelan. Wayang Golek sering dipentaskan dalam berbagai upacara adat, festival budaya, dan acara rakyat di Jawa Barat, sebagai bentuk hiburan dan penyaluran nilai-nilai budaya. Dengan kekayaan cerita dan keindahan pertunjukannya, Wayang Golek menjadi salah satu warisan budaya yang patut dilestarikan dan dipromosikan di Indonesia.",
   },
   {
     id: "cult-15",
-    name: "Tari Jaipongan",
-    type: "Tari",
+    name: "Kebaya Sunda",
+    type: "Baju Adat",
     description:
-      "Tari Jaipongan adalah tarian yang energik dan dinamis, seringkali menggambarkan kehidupan sehari-hari masyarakat Sunda.",
-    coordinates: [-6.9055, 107.6139],
-    imageUrl: "",
-    article: "",
+      "Kebaya Sunda adalah baju adat wanita yang biasa dipakai dalam upacara pernikahan atau acara adat lainnya. Kebaya ini biasanya dihiasi dengan brokat dan renda, serta dipadukan dengan kain batik atau songket.",
+    coordinates: [-6.9175, 107.6191],
+    imageUrl: "https://kagama.id/wp-content/uploads/2023/02/001.jpg",
+    article:
+      "Kebaya Sunda adalah busana tradisional yang berasal dari Sunda, Jawa Barat, Indonesia. Kebaya Sunda terdiri dari atasan yang terbuat dari kain tipis dan transparan dengan hiasan bordir yang indah, serta bawahan berupa kain panjang yang disebut 'kain batik' atau 'kain sarung'. Busana ini sering dipakai dalam berbagai acara adat, upacara pernikahan, dan festival budaya di Jawa Barat. Kebaya Sunda memiliki berbagai varian desain, mulai dari yang sederhana hingga yang sangat mewah dan dihiasi dengan payet atau manik-manik. Wanita yang mengenakan kebaya Sunda sering kali memadukannya dengan aksesoris tradisional, seperti anting-anting, gelang, atau kalung, untuk menambah kesan anggun dan elegan. Dengan keindahan desain dan keberagaman motifnya, Kebaya Sunda menjadi salah satu simbol kebanggaan dan kekayaan budaya Indonesia yang patut dilestarikan dan dipromosikan.",
   },
   {
     id: "cult-16",
-    name: "Gendang Penca",
-    type: "Musik",
+    name: "Beskap Sunda",
+    type: "Baju Adat",
     description:
-      "Gendang Penca adalah alat musik tradisional yang digunakan untuk mengiringi pencak silat.",
-    coordinates: [-6.9205, 107.6098],
-    imageUrl: "",
-    article: "",
+      "Beskap Sunda adalah pakaian adat pria yang sering digunakan dalam upacara adat atau pernikahan. Beskap ini biasanya dilengkapi dengan blangkon dan kain batik atau songket.",
+    coordinates: [-6.9147, 107.6098],
+    imageUrl: "https://gadingkostum.com/assets/upload/images/LAA0028REV22.jpg",
+    article:
+      "Beskap Sunda adalah busana tradisional pria yang berasal dari Sunda, Jawa Barat, Indonesia. Beskap Sunda terdiri dari atasan berupa jaket atau jubah pendek yang terbuat dari kain dengan hiasan bordir yang indah, serta celana panjang yang serasi. Busana ini sering dipakai dalam berbagai acara adat, upacara pernikahan, dan festival budaya di Jawa Barat. Beskap Sunda biasanya dipadukan dengan kain batik atau sarung sebagai bawahan, serta peci atau sorban sebagai penutup kepala. Pria yang mengenakan beskap Sunda sering kali menambahkan aksesoris tradisional, seperti keris atau ikat pinggang dari kain songket, untuk menambah kesan gagah dan berkelas. Dengan keindahan desain dan keberagaman motifnya, Beskap Sunda menjadi salah satu simbol kebanggaan dan kekayaan budaya Indonesia yang patut dilestarikan dan dipromosikan.",
   },
   {
     id: "cult-17",
-    name: "Batik",
-    type: "Kerajinan",
+    name: "Baju Pangsi",
+    type: "Baju Adat",
     description:
-      "Batik adalah kain tradisional yang dihiasi dengan pola-pola khas yang dibuat dengan teknik menuliskan lilin pada kain.",
-    coordinates: [-6.9218, 107.6078],
-    imageUrl: "",
-    article: "",
+      "Baju Pangsi adalah pakaian adat pria Sunda yang biasanya dipakai dalam kehidupan sehari-hari atau acara adat. Baju ini terdiri dari atasan longgar dan celana panjang yang juga longgar.",
+    coordinates: [-6.917, 107.62],
+    imageUrl:
+      "https://awsimages.detik.net.id/community/media/visual/2022/04/20/pakaian-adat-jawa-barat-5_43.jpeg?w=1200",
+    article:
+      "Baju Pangsi adalah busana tradisional yang berasal dari Sunda, Jawa Barat, Indonesia. Baju Pangsi terdiri dari atasan berupa kemeja atau baju panjang dengan hiasan bordir yang indah, serta kain panjang yang digunakan sebagai celana. Busana ini sering dipakai dalam acara-acara adat, upacara pernikahan, dan festival budaya di Jawa Barat. Baju Pangsi biasanya dipadukan dengan sarung atau kain batik sebagai bawahan, serta peci atau sorban sebagai penutup kepala. Pria yang mengenakan Baju Pangsi sering kali menambahkan aksesoris tradisional, seperti ikat pinggang dari kain songket atau keris, untuk menambah kesan gagah dan berkelas. Wanita juga kadang-kadang memakai versi Baju Pangsi dengan hiasan yang lebih feminin dan lekuk tubuh yang terlihat. Dengan keindahan desain dan keberagaman motifnya, Baju Pangsi menjadi salah satu simbol kebanggaan dan kekayaan budaya Indonesia yang patut dilestarikan dan dipromosikan.",
   },
   {
     id: "cult-18",
-    name: "Wayang Orang",
-    type: "Teater",
+    name: "Blangkon Sunda",
+    type: "Baju Adat",
     description:
-      "Wayang Orang adalah pertunjukan teater yang menampilkan cerita-cerita wayang dengan aktor manusia.",
-    coordinates: [-6.9178, 107.6066],
-    imageUrl: "",
-    article: "",
-  },
-  {
-    id: "cult-19",
-    name: "Tari Saman",
-    type: "Tari",
-    description:
-      "Tari Saman adalah tarian tradisional yang berasal dari Aceh dan terkenal dengan gerakan tangan yang cepat.",
-    coordinates: [-6.9274, 107.6098],
-    imageUrl: "",
-    article: "",
-  },
-  {
-    id: "cult-20",
-    name: "Wayang Orang Bharata",
-    type: "Teater",
-    description:
-      "Wayang Orang Bharata adalah kelompok teater yang mempertunjukkan seni wayang orang dengan cerita-cerita Mahabharata dan Ramayana.",
-    coordinates: [-6.9303, 107.6222],
-    imageUrl: "",
-    article: "",
-  },
-  {
-    id: "cult-21",
-    name: "Tari Piring",
-    type: "Tari",
-    description:
-      "Tari Piring adalah tarian tradisional Minangkabau yang menggunakan piring sebagai properti tarian.",
-    coordinates: [-6.934, 107.6121],
-    imageUrl: "",
-    article: "",
-  },
-  {
-    id: "cult-22",
-    name: "Wayang Kulit Purwa",
-    type: "Teater",
-    description:
-      "Wayang Kulit Purwa adalah salah satu bentuk wayang kulit yang menceritakan kisah-kisah epik dari Mahabharata dan Ramayana.",
-    coordinates: [-6.9175, 107.6195],
-    imageUrl: "",
-    article: "",
-  },
-  {
-    id: "cult-23",
-    name: "Gamelan Degung",
-    type: "Musik",
-    description:
-      "Gamelan Degung adalah ansambel musik tradisional Sunda yang terdiri dari gong, bonang, saron, dan kendang.",
-    coordinates: [-6.9215, 107.6101],
-    imageUrl: "",
-    article: "",
-  },
-  {
-    id: "cult-24",
-    name: "Tari Kuda Kepang",
-    type: "Tari",
-    description:
-      "Tari Kuda Kepang adalah tarian yang menampilkan penari yang menunggang kuda buatan dari anyaman bambu.",
-    coordinates: [-6.9308, 107.6118],
-    imageUrl: "",
-    article: "",
-  },
-  {
-    id: "cult-25",
-    name: "Batik Mega Mendung",
-    type: "Kerajinan",
-    description:
-      "Batik Mega Mendung adalah motif batik khas Cirebon yang menggambarkan awan mendung dengan warna-warna cerah.",
-    coordinates: [-6.7063, 108.5582],
-    imageUrl: "",
-    article: "",
-  },
-  {
-    id: "cult-26",
-    name: "Wayang Wong",
-    type: "Teater",
-    description:
-      "Wayang Wong adalah teater tradisional yang menampilkan cerita wayang dengan aktor yang memakai kostum dan topeng.",
-    coordinates: [-6.9158, 107.6181],
-    imageUrl: "",
-    article: "",
-  },
-  {
-    id: "cult-27",
-    name: "Calung",
-    type: "Musik",
-    description:
-      "Calung adalah alat musik tradisional Sunda yang dimainkan dengan cara dipukul.",
-    coordinates: [-6.9253, 107.6344],
-    imageUrl: "",
-    article: "",
-  },
-  {
-    id: "cult-28",
-    name: "Reog",
-    type: "Tari",
-    description:
-      "Reog adalah tarian tradisional yang berasal dari Ponorogo, Jawa Timur, dan sering ditampilkan dalam upacara adat.",
-    coordinates: [-6.9297, 107.6068],
-    imageUrl: "",
-    article: "",
-  },
-  {
-    id: "cult-29",
-    name: "Rampak Gendang",
-    type: "Musik",
-    description:
-      "Rampak Gendang adalah pertunjukan musik tradisional yang menggunakan banyak gendang yang dimainkan secara serentak.",
-    coordinates: [-6.9311, 107.6079],
-    imageUrl: "",
-    article: "",
-  },
-  {
-    id: "cult-30",
-    name: "Sulap",
-    type: "Pertunjukan",
-    description:
-      "Sulap adalah seni pertunjukan yang menggunakan trik dan ilusi untuk menghibur penonton.",
-    coordinates: [-6.9153, 107.6193],
-    imageUrl: "",
-    article: "",
-  },
-  {
-    id: "cult-31",
-    name: "Karinding",
-    type: "Musik",
-    description:
-      "Karinding adalah alat musik tradisional Sunda yang terbuat dari bambu atau pelepah aren dan dimainkan dengan cara ditiup atau dipetik.",
-    coordinates: [-6.9212, 107.6098],
-    imageUrl: "",
-    article: "",
+      "Blangkon Sunda adalah tutup kepala tradisional pria Sunda yang biasanya digunakan bersama beskap. Blangkon ini memiliki bentuk yang khas dan motif yang unik.",
+    coordinates: [-6.915, 107.619],
+    imageUrl:
+      "https://visitciamis.com/wp-content/uploads/2023/02/iket-sunda-png-23-900x500.jpeg",
+    article:
+      "Blangkon Sunda adalah tutup kepala tradisional yang berasal dari Sunda, Jawa Barat, Indonesia. Blangkon Sunda terbuat dari kain dengan bentuk yang khas, biasanya berwarna hitam atau merah dengan hiasan motif geometris. Blangkon Sunda sering dipakai dalam acara-acara adat, upacara pernikahan, dan festival budaya di Jawa Barat. Blangkon Sunda merupakan salah satu simbol kebudayaan Sunda yang sangat dihargai dan diidentifikasi dengan kebanggaan etnis Sunda. Blangkon ini juga dipakai dalam berbagai kesempatan, baik formal maupun informal, untuk menampilkan identitas budaya dan nasionalisme.",
   },
 ];
 
@@ -327,4 +229,10 @@ export const DataPeta = {
     const dataPeta = culturalLocations;
     return Promise.resolve(dataPeta);
   },
+
+  getDetail(id: string){
+    const dataPeta = culturalLocations;
+    const detail = dataPeta.find((item) => item.id === id);
+    return Promise.resolve(detail);
+  }
 };

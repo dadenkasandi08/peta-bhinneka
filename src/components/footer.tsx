@@ -1,6 +1,5 @@
-import Image from "next/image";
 import React from "react";
-import Logo from "@/assets/images/logo.png";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -12,64 +11,64 @@ function Footer() {
         <div>
           <h1 className="font-medium text-xl pb-4 pt-5 md:pt-0">Explore</h1>
           <nav className="flex flex-col gap-2">
-            <a
+          <Link
               className="hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
               Peta
-            </a>
-            <a
+            </Link>
+            <Link
               className="hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
               Artikel
-            </a>
-            <a
+            </Link>
+            <Link
               className="hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
               Dokumentasi
-            </a>
+            </Link>
           </nav>
         </div>
         <div>
           <h1 className="font-medium text-xl pb-4 pt-5 md:pt-0">Bantuan</h1>
           <nav className="flex flex-col gap-2">
-            <a
+            <Link
               className="hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
               FAQ
-            </a>
-            <a
+            </Link>
+            <Link
               className="hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
               Kontak Kami
-            </a>
+            </Link>
           </nav>
         </div>
         <div>
           <h1 className="font-medium text-xl pb-4 pt-5 md:pt-0">Kontak</h1>
           <nav className="flex flex-col gap-2">
-            <a
+            <Link
               className="hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
               petabhineka@gmail.com
-            </a>
-            <a
+            </Link>
+            <Link
               className="hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
               085736572535
-            </a>
-            <a
+            </Link>
+            <Link
               className="hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
               Social media
-            </a>
+            </Link>
           </nav>
         </div>
       </div>

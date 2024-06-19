@@ -11,10 +11,8 @@ function Peta() {
 
   return (
     <SecondLayout>
-      <section>
-        <div className="mt-12 pt-5 ">
-          <MapsContainer center={[-6.9404287, 107.2600301]} zoom={9} />
-        </div>
+      <section className="mt-12 pt-5 ">
+          <MapsContainer  center={[-6.903272,107.5607555]} zoom={8} />
       </section>
 
     </SecondLayout>
