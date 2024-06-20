@@ -7,10 +7,10 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta charSet="UTF-8" />
-        <meta name="description" content="Donasi untuk anak-anak Indonesia" />
+        <meta name="description" content="Explorasi budaya lewat peta " />
         <meta name="viewport" content="viewport-fit=cover" />
         <title>PETA BHINEKA</title>
-        <link rel="icon" href="" />
+        <meta name="dicoding:email" content="dadenkasandi43@mhs.unram.ac.id"/>
       </Head>
       <Component {...pageProps} />
     </>
